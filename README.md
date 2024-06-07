@@ -9,6 +9,9 @@ made 🛠️ with love 💖 on earth 🌍 by robots 🤖 supervised by humans �
 This was made by Microsoft Copilot with directions from me.
 
 
+# NOT FOR PRODUCTION [seriously don't]
+
+
 The goal of this challenge is to develop a shop cart. The shop cart should allow users to add and remove products.
 
 The topic selected is beer. You can use the `beers.json` file in the root of the eshop project to get the list of beers for building the Rest API.
