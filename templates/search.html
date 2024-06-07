@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">Search Results</h1>
+    <div class="columns is-multiline">
+        {% for beer in beers %}
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-content">
+                        <a href="{{ url_for('beer_detail', beer_id=beer.id) }}">
+                            <h2 class="subtitle">{{ beer.name }}</h2>
+                        </a>
+                        <p>{{ beer.description }}</p>
+                        <p>Price: {{ beer.price }}</p>
+                        <form action="{{ url_for('cart') }}" method="post">
+                            <input type="hidden" name="item_id" value="{{ beer.id }}">
+                            <input type="hidden" name="action" value="add">
+                            <input type="submit" value="Add to cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

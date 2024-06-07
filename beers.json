@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Pan Galactic Gargle Blaster",
+        "description": "The effect of drinking this is like having your brains smashed out by a slice of lemon wrapped round a large gold brick.",
+        "abv": 42.0,
+        "price": 8.99
+    },
+    {
+        "id": 2,
+        "name": "Vogon Ale",
+        "description": "A beer known for its bitterness, much like the poetry of its namesake.",
+        "abv": 7.3,
+        "price": 11.99
+    },
+    {
+        "id": 3,
+        "name": "Zaphod's Zest",
+        "description": "A beer with a zesty twist, as unpredictable as its namesake.",
+        "abv": 5.7,
+        "price": 12.49
+    }
+]

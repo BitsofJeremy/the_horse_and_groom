@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">Drinks</h1>
+    <div class="columns is-multiline">
+        {% for beer in beers %}
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="subtitle"><a href="/beers/{{ beer.id }}">{{ beer.name }}</a></h2>
+                        <p>{{ beer.description }}</p>
+                        <p>Price: {{ beer.price }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

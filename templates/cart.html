@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">Shopping Cart</h1>
+    <div class="columns is-multiline">
+        {% for item in items %}
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="subtitle">{{ item.item.name }}</h2>
+                        <p>{{ item.item.description }}</p>
+                        <p>Price: {{ item.item.price }}</p>
+                        <p>Quantity: {{ item.count }}</p>
+                        <form action="{{ url_for('cart') }}" method="post">
+                            <input type="hidden" name="item_id" value="{{ item.item.id }}">
+                            <input type="hidden" name="action" value="remove">
+                            <input type="submit" value="Remove from cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <h2 class="title">Total: {{ total }}</h2>
+{% endblock %}
