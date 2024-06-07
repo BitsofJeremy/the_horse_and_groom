@@ -6,6 +6,20 @@ made 🛠️ with love 💖 on earth 🌍 by robots 🤖 supervised by humans �
 
 ---
 
+## Name and theme origination
+
+https://hitchhikers.fandom.com/wiki/The_Horse_and_Groom
+
+```
+The Horse and Groom was the name of the pub close to Arthur Dent's house, in the village of Cottington. It was probably his local pub, as in the video game it was just down the lane from Arthur's house. The pub name was changed to The Red Lion in the 1981 television series.
+
+Ford Prefect and Arthur use it for stocking up on necessary protein restoratives and muscle relaxants (alcohol and peanuts) before their journey through Hyperspace to the Vogon ship, which they hitch-hike onto using the Electronic Thumb.
+```
+
+---
+
+
+
 This was made by Microsoft Copilot with directions from me.
 
 # NOT FOR PRODUCTION [seriously don't]
