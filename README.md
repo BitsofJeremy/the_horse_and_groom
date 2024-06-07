@@ -8,8 +8,12 @@ made 🛠️ with love 💖 on earth 🌍 by robots 🤖 supervised by humans �
 
 This was made by Microsoft Copilot with directions from me.
 
-
 # NOT FOR PRODUCTION [seriously don't]
+
+
+See link for challenge:
+
+https://github.com/microsoft/CopilotHackathon/blob/main/challenges/eshop/eshop.md
 
 
 The goal of this challenge is to develop a shop cart. The shop cart should allow users to add and remove products.
